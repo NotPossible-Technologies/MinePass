@@ -23,6 +23,9 @@ MinePass is a Paper plugin that places a password gate in front of world entry. 
 >
 > Other platforms that are not listed here may contain unofficial, forked, or reuploaded builds. Unofficial builds may be malicious.
 
+## Preview
+
+
 ## Supported versions
 
 MinePass targets:
@@ -65,3 +68,15 @@ MinePass/
         └── resources/
             ├── config.yml
             └── plugin.yml
+```
+## Cloning the repository
+
+**For Intellij**
+Launch into Intellij and clone git repo then enter this https.
+```https://github.com/NotPossible-Technologies/MinePass/```
+
+**For Terminal**
+Open terminal and make sure to have [Git](https://git-scm.com/) installed after that enter this command in the terminal.
+```git clone https://github.com/NotPossible-Technologies/MinePass/```
+
+---
