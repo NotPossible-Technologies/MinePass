@@ -34,34 +34,15 @@ MinePass targets:
 
 The project uses the oldest supported Paper API as its compile target where possible, allowing the same plugin jar to run across compatible newer Paper versions.
 
-## Project structure
+### Licensing
+This project is licensed under Apache 2.0
 
-```text
-MinePass/
-├── build.gradle.kts
-├── gradle.properties
-├── settings.gradle.kts
-└── src/
-    └── main/
-        ├── java/
-        │   └── io/github/duckycashy/minepass/
-        │       ├── MinePassPlugin.java
-        │       ├── command/
-        │       │   └── MinePassCommand.java
-        │       ├── connection/
-        │       │   ├── ConnectionGate.java
-        │       │   └── PasswordAuthenticator.java
-        │       ├── dialog/
-        │       │   └── PasswordDialog.java
-        │       ├── model/
-        │       │   ├── PasswordEntry.java
-        │       │   └── PasswordType.java
-        │       ├── storage/
-        │       │   └── PasswordStore.java
-        │       ├── update/
-        │       │   └── UpdateChecker.java
-        │       └── util/
-        │           └── DurationParser.java
-        └── resources/
-            ├── config.yml
-            └── plugin.yml
+What this means:
+- You can use it for personal or commercial projects, free of charge.
+- You can modify it and make your own version.
+- You can share or redistribute it, with or without changes.
+- You can include it in closed-source or paid products.
+- You must keep the original copyright notice and a copy of the license.
+- You must clearly mark any files you changed.
+- It comes with a patent grant, so contributors can't sue you over patents on their code.
+- It's provided "as is", with no warranty, so the authors aren't liable if something breaks.
