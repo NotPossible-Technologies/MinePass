@@ -34,6 +34,8 @@ MinePass targets:
 
 The project uses the oldest supported Paper API as its compile target where possible, allowing the same plugin jar to run across compatible newer Paper versions.
 
+---
+
 ### Licensing
 This project is licensed under Apache 2.0
 
